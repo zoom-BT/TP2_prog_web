@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const mqDesktop = window.matchMedia('(min-width: 961px)');
 
     /* ------------------------------------------------------------------ */
-    /* Helpers  Balbino Tchoutzine (zoom-BT)                                                          */
+    /* Helpers  Balbino Tchoutzine (zoom-BT)                                                              */
     /* ------------------------------------------------------------------ */
-    function sanitizeCartData(raw) {
+    function sanitizeCartData(raw) {    
         const data = { items: [], promo: null };
         if (raw && typeof raw === 'object') {
             if (Array.isArray(raw.items)) {
