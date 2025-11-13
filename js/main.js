@@ -96,13 +96,4 @@ document.addEventListener('DOMContentLoaded', () => {
         return { subtotal, discount, delivery, total, promo };
     }
 
-
-
-
-
-
-
-
-
-
 });
