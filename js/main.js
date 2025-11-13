@@ -94,6 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const total = Math.max(0, subtotal - discount + delivery);
 
         return { subtotal, discount, delivery, total, promo };
-    }
+    } 
 
 });
+
+
+
